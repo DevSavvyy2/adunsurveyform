@@ -1,0 +1,61 @@
+body {
+    background-image: url(../img/ADUN7.jpg);
+    background-color: rgba(22, 22, 22, 0.7);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    color: white;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12, 12, 61, 0.6);
+    width: 600px;
+    margin-left: 28em;
+}
+.intro {
+    text-align: center;
+}
+form {
+    margin: 3em;
+    line-height: 2.5em;
+    font-size: 14px;
+}
+#form {
+    width: 550px;
+    height: 20px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    background-color: green;
+    border: none;
+    padding: 1em;
+    width: 550px;
+    cursor: pointer;
+}
+@media (max-width : 768px) {
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        margin-left: 0;
+    }
+    body {
+        background-size: cover;
+    }
+    form {
+        line-height: 2em;
+        font-size: 9px;
+    }
+    #form{
+        width: 300px;
+        height: 15px;
+    }
+    button {
+        width: 305px;
+    }
+}
